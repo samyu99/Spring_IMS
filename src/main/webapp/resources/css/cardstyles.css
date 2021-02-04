@@ -1,0 +1,26 @@
+section{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.fa-lock{
+	background: #273746;
+	color: #fff;
+	line-height: 2.1;
+	padding: 8%;
+	width: 30px;
+	text-align: center;
+}
+@media (min-width: 360px) and (max-width: 767px){
+  .col-md-4 .form-group{
+    margin-bottom: 0;
+  }
+  .mt-2{
+          margin-top: .3rem!important;
+  }
+}
